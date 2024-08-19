@@ -30,6 +30,8 @@ const translationsTr: Partial<Translations> = {
 	// Menu (app-specific)
 	export: "Veri Aktar",
 	"export-to-format": "{format} formatına aktar",
+	"go-to-date": "Seçilen tarihe git",
+	"go-to-today": "Bugüne git",
 	import: "Veri Al",
 	"import-from-format": "{format} formatından al",
 	license: "Lisans",
@@ -39,6 +41,7 @@ const translationsTr: Partial<Translations> = {
 	"previous-day": "Önceki Gün",
 	"previous-month": "Önceki Ay",
 	"privacy-policy": "Gizlilik Politikası",
+	statistics: "İstatistikler",
 	website: "Web Sitesi",
 
 	// Weekdays
@@ -76,7 +79,15 @@ const translationsTr: Partial<Translations> = {
 	"allow-future-entries": "Gelecekte giriş oluşturmaya izin ver",
 	auto: "Otomatik",
 	"diary-entries": "Günlük girişleri",
+	"enable-spellcheck": "Yazımı denetle",
 	"first-day-of-week": "Haftanın ilk günü",
+	"hide-titles": "Başlıkları gizle",
+	no: "Hayır",
+	ok: "Tamam",
+	"reset-diary": "Günlüğü sıfırla",
+	"reset-diary-confirm": "Evet, eminim",
+	"reset-diary-msg":
+		"Günlüğü sıfırlamak istediğinize emin misiniz? Bu tüm verileri silecek. Silinen veriler geri döndürülemez",
 
 	// Password and directory
 	"change-directory": "Klasörü değiştir",
@@ -97,6 +108,14 @@ const translationsTr: Partial<Translations> = {
 	"set-password": "Parolayı seç",
 	unlock: "Kilidi Aç",
 	"wrong-password": "Yanlış parola",
+
+	// Statistics
+	"total-entries": "Toplam girdi",
+	"entries-per-week": "Haftalık girdi",
+	"streak-best": "Art arda giriş serisi (en çok)",
+	"streak-current": "Art arda giriş serisi (mevcut)",
+	"total-words": "Tüm kelimeler",
+	"words-per-entry": "Girdi başına düşen kelime",
 
 	// Import
 	"import-error-msg": "Veri alımı sırasında bir hata oluştu",
